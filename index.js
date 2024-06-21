@@ -43,10 +43,10 @@ app.use(patientRoutes)
 //doctorsapp is a db name that will be created for our application.
 
 
+https://github.com/itsanimesh04/doctors-app_backend.git
 
 
-
-mongoose.connect("mongodb://127.0.0.1:27017/doctorsapp").then(() => {
+mongoose.connect("mongodb+srv://aniimeshsingh1211:QfGkyGnJCCu73lS1@cluster1.yjnuap4.mongodb.net/doctorsapp?retryWrites=true&w=majority&appName=Cluster1").then(() => {
     console.log("connected to mongoDB");
 }).catch((err) => {
     console.log(err);
